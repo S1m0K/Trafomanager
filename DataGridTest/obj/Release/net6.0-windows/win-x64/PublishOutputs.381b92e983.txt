@@ -1,0 +1,9 @@
+C:\Users\Simon\Desktop\hallo\DataGridTest.pdb
+C:\Users\Simon\Desktop\hallo\D3DCompiler_47_cor3.dll
+C:\Users\Simon\Desktop\hallo\PenImc_cor3.dll
+C:\Users\Simon\Desktop\hallo\PresentationNative_cor3.dll
+C:\Users\Simon\Desktop\hallo\vcruntime140_cor3.dll
+C:\Users\Simon\Desktop\hallo\wpfgfx_cor3.dll
+C:\Users\Simon\Desktop\hallo\sni.dll
+C:\Users\Simon\Desktop\hallo\SQLite.Interop.dll
+C:\Users\Simon\Desktop\hallo\DataGridTest.exe

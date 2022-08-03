@@ -1,0 +1,24 @@
+﻿<Window x:Class="DataGridTest.PathInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridTest"
+        mc:Ignorable="d"
+        Title="PathInputWindow" Height="250" Width="400" MaxHeight="250" MaxWidth="400" MinHeight="250" MinWidth="400">
+    <Grid>
+        <Label x:Name="InstructionLabel" Content="Please insert Path here: " HorizontalAlignment="Center" Margin="0,0,0,120" VerticalAlignment="Center" Background="#FFFFAF00" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="15"/>
+        <TextBox x:Name="newPath" HorizontalAlignment="Center" Margin="0,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" BorderBrush="#FFFFAF00" Height="30" Background="#FFF5E6BC" Text="C:\source "/>
+        <Button Content="Send" Click="Button_Click"  HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Center" Width="50" Height="20" Foreground="Black" Background="#FFFFB13E">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="9"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Padding="0,0,0,0" Content="KS.Productions" Opacity=".5" HorizontalAlignment="Left" Margin="5,0,0,5" VerticalAlignment="Bottom" FontSize="8" Foreground="Black" FontFamily="Vladimir Script">
+            
+        </Label>
+
+    </Grid>
+</Window>
